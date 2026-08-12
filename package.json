@@ -1,0 +1,13 @@
+{
+  "name": "privacy-image-thumbnail-store",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "resize-upload": "node --experimental-strip-types src/clinical_image_upload.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  }
+}
